@@ -1,12 +1,13 @@
 pipeline {
     agent any
-    stage('scm checkout') {
-        steps {
-            checkout scm
-        }
-    }
 
     stages {
+        stage('scm checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
         stage('primul job') {
             steps {
                 sh 'pwd'

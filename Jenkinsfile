@@ -20,8 +20,7 @@ pipeline {
             steps {
                 script {
                     def Age = 21
-                    sh "echo I have ${Age} years and im going to be 22 next year and again 23 and 24 the year
-                    after that"
+                    sh "echo I have ${Age} years and im going to be 22 next year and again 23 after that"
                 }
             }
         }
